@@ -1,6 +1,6 @@
 //  Stopwatch.cpp
 
-#include "Stopwatch.h"
+#include "stopwatch.h"
 #include <time.h>
 #include <iostream>
 using namespace std;

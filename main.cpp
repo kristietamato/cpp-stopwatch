@@ -2,7 +2,7 @@
 //  main.cpp
 
 #include "testStopwatch.h"
-#include "Stopwatch.h"
+#include "stopwatch.h"
 #include <iostream>
 using namespace std;
 

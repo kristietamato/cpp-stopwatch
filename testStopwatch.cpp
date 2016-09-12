@@ -1,7 +1,7 @@
 //  testStopwatch.cpp
 
 #include "testStopwatch.h"
-#include "Stopwatch.h"
+#include "stopwatch.h"
 #include <iostream>
 #include <string>
 using namespace std;
