@@ -1,5 +1,7 @@
 # Makefile for stopwatch program
 
+.PHONY: stopwatch clean
+
 stopwatch: main.o stopwatch.o testStopwatch.o
 	g++ main.o stopwatch.o testStopwatch.o -o stopwatch
 
@@ -14,5 +16,3 @@ testStopwatch.o: testStopwatch.cpp testStopwatch.h
 
 clean:
 	rm *.o stopwatch
-
-
